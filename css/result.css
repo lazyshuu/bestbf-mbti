@@ -1,0 +1,75 @@
+body{
+  background-color: whitesmoke;
+}
+
+*{
+  font-family: 'Nanum Gothic', sans-serif;
+  color:
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 17px;
+
+}
+
+h5 {
+	text-align: center;
+}
+
+
+#result{
+  display: none;
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#shareResult{
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.resultname{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.resultDesc{
+  text-align: justify;
+  font-size: 14px;
+}
+
+.kakao{
+  color: white;
+  background-color: #FEE500;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.kakao:hover, .kakao:focus {
+  background-color: whitesmoke;
+  color: #FEE500;
+}
+
+.gohome{
+  color: white;
+  background-color: pink;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.gohome:hover, .gohome:focus {
+  background-color: whitesmoke;
+  color: pink;
+}

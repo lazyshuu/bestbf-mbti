@@ -1,0 +1,52 @@
+#qna {
+  display: none;
+  text-align: center;
+
+}
+
+.qBox {
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 15px;
+  width: 75%
+}
+
+.answerList {
+  border-radius: 15px;
+  display: block;
+  width: 90%;
+  border: 0px;
+  font-size: 15px;
+  background-color: #DF8D8D;
+  border-color: #DF8D8D;
+}
+
+.answerList:hover, .answerList:focus {
+  color: #fff;
+  background-color: #b05858;
+  border-color: #b05858; /*set the color you want here*/
+}
+
+.status {
+  height: 10px;
+  width: 90%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.statusBar {
+  height: 100%;
+  border-radius: 15px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+52,ff5c5c+100;Red+3D+%231 */
+  background: gray;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #febbbb 0%, #fe9090 52%, #ff5c5c 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #febbbb 0%, #fe9090 52%, #ff5c5c 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #febbbb 0%, #fe9090 52%, #ff5c5c 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#febbbb', endColorstr='#ff5c5c', GradientType=0);
+  /* IE6-9 */
+}

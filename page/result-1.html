@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="HEandJS">
+    <meta name="keywords" content="나에게 가장 잘 어울리는 남친 유형은?">
+    <meta name="description" content="나에게 가장 잘 어울리는 남친 유형은?">
+
+    <!-- sns share -->
+    <meta property="og:url" content="https://bestbf.netlify.app/" />
+    <meta property="og:title" content="나에게 가장 잘 어울리는 남친 유형은?" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/share.png" />
+    <meta property="og:description" content="MBTI로 알아보는 나에게 가장 잘 어울리는 남친 유형" />
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon.ico" />
+
+    <title>나에게 가장 잘 어울리는 남친 유형은?</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/result.css">
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+      Kakao.init(app_code);
+      Kakao.isInitialized();
+    </script>
+  </head>
+
+<body>
+  <div class="container">
+    <section id="shareResult" class="mx-auto my-5 py-2 px-4">
+      <h1>나에게 가장 잘 어울리는<br>남친 유형은?</h1>
+      <div class="resultname mt-4 mb-3">
+        <p>인간 비글 🐕🐾</p>
+      </div>
+      <div id="resultImg" class="my-3 col-lg-4 col-md-6 col-sm-8 col-8 mx-auto">
+        <img src="../img/image-1.png" alt="0" class="img-fluid">
+      </div>
+      <div class="resultDesc my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+        <p>연애 이론만 만렙인 당신에게 어울리는 인간 비글 남친! 너 좋아? 나도 좋아!! 인간 댕댕이 같아서 한 번 연애가 시작되면 시도때도 없이 연인에게 좋아좋아 애정공세에 SNS를 탈탈 털어 핫하다는 곳은 꼭 같이 가봐야 직성이 풀리는 사람을 강추합니다!<br><br>그런데 의외로 자기만의 기준이 있어서 친근한 모습에 선을 넘지 않도록 조심!</p>
+      </div>
+      <script type="text/javascript">
+        function moveHome(){
+          location.href="../index.html"
+        }
+      </script>
+      <button type="button" class="gohome mt-3 py-2 px-3" onclick="js:moveHome()">테스트 다시하기</button>
+    </section>
+
+    <script src="../js/data.js" charset="utf-8"></script>
+    <script src="../js/start.js" charset="utf-8"></script>
+    <script src="../js/share.js" charset="utf-8"></script>
+  </div>
+</body>
+
+</html>
